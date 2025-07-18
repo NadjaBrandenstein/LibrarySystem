@@ -5,4 +5,6 @@ module dk.easv.librarysystem {
 
     opens dk.easv.librarysystem to javafx.fxml;
     exports dk.easv.librarysystem;
+    exports dk.easv.librarysystem.GUI;
+    opens dk.easv.librarysystem.GUI to javafx.fxml;
 }
