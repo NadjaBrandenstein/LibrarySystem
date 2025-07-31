@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dk.easv.librarysystem.GUI.CheckInnController">
+   <children>
+      <MFXButton layoutX="330.0" layoutY="305.0" onAction="#btnCheckInn" text="Check Inn" />
+      <MFXTextField fx:id="txtTitle" layoutX="119.0" layoutY="147.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0" />
+      <MFXTextField fx:id="txtAuthor" layoutX="119.0" layoutY="192.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="50.0" layoutY="153.0" text="Title" />
+      <Label layoutX="52.0" layoutY="198.0" text="Author" />
+      <MFXTextField fx:id="txtIsbn" layoutX="119.0" layoutY="241.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="52.0" layoutY="247.0" text="ISBN" />
+      <MFXTextField fx:id="txtFName" layoutX="119.0" layoutY="50.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="48.0" layoutY="56.0" text="First Name" />
+      <MFXTextField fx:id="txtLName" layoutX="119.0" layoutY="98.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="240.0" />
+      <Label layoutX="49.0" layoutY="104.0" text="Last Name" />
+   </children>
+</AnchorPane>

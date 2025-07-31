@@ -1,10 +1,11 @@
 package dk.easv.librarysystem;
 
+// JavaFX Imports
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
+// Java Imports
 import java.io.IOException;
 
 public class Main extends Application {
